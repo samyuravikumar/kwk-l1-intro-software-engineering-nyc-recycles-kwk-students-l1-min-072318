@@ -35,7 +35,7 @@ end
 #You should use the `each_key` method to iterate over your hash and print out each key.
 
 def all_keys(recycle_bin)
-  print recycle_bin.keys 
+  puts recycle_bin.keys 
 end
 
 #4. Define a method called `all_data` that takes a hash as an argument.
@@ -43,7 +43,7 @@ end
 #You should use the `each_value` method to iterate over your hash and print out each value.
 
 def all_data(recycle_bin)
-  print recycle_bin.values 
+  puts recycle_bin.values 
 end
 
 #5. Define a method called `key_and_data` that takes a hash as an argument.
@@ -51,4 +51,5 @@ end
 #You should use the `each` method to iterate over your hash to print out that sentence
 
 def key_and_data(recycle_bin)
-  
+  recycle_bin.each do |key, value|
+    p
