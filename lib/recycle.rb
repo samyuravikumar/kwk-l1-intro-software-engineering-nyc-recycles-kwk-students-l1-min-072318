@@ -53,3 +53,5 @@ end
 def key_and_data(recycle_bin)
   recycle_bin.each do |key, value|
     puts "The #{key} is #{value}"
+  end
+end
