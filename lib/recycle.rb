@@ -52,4 +52,4 @@ end
 
 def key_and_data(recycle_bin)
   recycle_bin.each do |key, value|
-    p
+    puts "The #{key} is #{value}"
